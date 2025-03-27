@@ -22,7 +22,7 @@ pipeline {
 
         stage('Unit and Integration Tests') {
             steps {
-                echo 'Running unit and integration tests...'
+                echo 'Running unit and integration tests..'
             }
             post {
                 always {
