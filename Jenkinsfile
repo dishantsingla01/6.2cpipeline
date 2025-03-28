@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the React application...'
+                echo 'Building the React application..'
                 echo 'Commonly used tools for this stage include npm, Yarn, and Webpack.'
                 echo 'Integration Steps: Install dependencies using npm, build the React app using Webpack or Vite, and generate optimized production assets.'
                 echo 'What it does: Compiles React code into a minified, production-ready format.'
